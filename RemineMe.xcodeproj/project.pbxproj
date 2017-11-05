@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410038AC1FA9436900B9C7D9 /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410038AB1FA9436900B9C7D9 /* LeftTableViewController.swift */; };
+		41008FD31FAE8C1100DE8397 /* AddCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41008FD21FAE8C1100DE8397 /* AddCardTableViewCell.swift */; };
+		41008FD51FAE8C5C00DE8397 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41008FD41FAE8C5C00DE8397 /* CardCollectionViewCell.swift */; };
+		41305FF21FAA1EE60091DC2F /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 41305FF11FAA1EE60091DC2F /* tessdata */; };
+		41305FF41FAA23410091DC2F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41305FF31FAA23400091DC2F /* libz.tbd */; };
+		413681611FACEBE700BD85A3 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413681601FACEBE700BD85A3 /* AddCardViewController.swift */; };
+		4165F9D11FABE23E00568E2D /* CardCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4165F9D01FABE23E00568E2D /* CardCover.swift */; };
+		4165F9D31FABF20000568E2D /* FavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4165F9D21FABF1FF00568E2D /* FavTableViewCell.swift */; };
+		417C11411FA90EC800C40B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C11401FA90EC800C40B79 /* AppDelegate.swift */; };
+		417C11431FA90EC800C40B79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C11421FA90EC800C40B79 /* ViewController.swift */; };
+		417C11461FA90EC800C40B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417C11441FA90EC800C40B79 /* Main.storyboard */; };
+		417C11481FA90EC800C40B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417C11471FA90EC800C40B79 /* Assets.xcassets */; };
+		417C114B1FA90EC800C40B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417C11491FA90EC800C40B79 /* LaunchScreen.storyboard */; };
+		417C11561FA90EC800C40B79 /* RemineMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C11551FA90EC800C40B79 /* RemineMeTests.swift */; };
+		417C11611FA90EC800C40B79 /* RemineMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C11601FA90EC800C40B79 /* RemineMeUITests.swift */; };
+		41A2F4771FAE75E2004B6B8C /* BottomBorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2F4761FAE75E2004B6B8C /* BottomBorderedTextField.swift */; };
+		ECE862342E9807EF87093D91 /* Pods_RemineMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEAB56555FA6730C0E038B4 /* Pods_RemineMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417C11521FA90EC800C40B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417C11351FA90EC800C40B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417C113C1FA90EC800C40B79;
+			remoteInfo = RemineMe;
+		};
+		417C115D1FA90EC800C40B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417C11351FA90EC800C40B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417C113C1FA90EC800C40B79;
+			remoteInfo = RemineMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		417C118D1FA9104600C40B79 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07BF4983E3E40F9041750DA1 /* Pods-RemineMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemineMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe.debug.xcconfig"; sourceTree = "<group>"; };
+		2410B6C8DCD670D6F1C5236F /* Pods-RemineMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemineMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe.release.xcconfig"; sourceTree = "<group>"; };
+		2FEAB56555FA6730C0E038B4 /* Pods_RemineMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemineMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410038AB1FA9436900B9C7D9 /* LeftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
+		41008FD21FAE8C1100DE8397 /* AddCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardTableViewCell.swift; sourceTree = "<group>"; };
+		41008FD41FAE8C5C00DE8397 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		41305FF11FAA1EE60091DC2F /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		41305FF31FAA23400091DC2F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		413681601FACEBE700BD85A3 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		4165F9D01FABE23E00568E2D /* CardCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCover.swift; sourceTree = "<group>"; };
+		4165F9D21FABF1FF00568E2D /* FavTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavTableViewCell.swift; path = ../../Remine/Remine/FavTableViewCell.swift; sourceTree = "<group>"; };
+		417C113D1FA90EC800C40B79 /* RemineMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemineMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417C11401FA90EC800C40B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417C11421FA90EC800C40B79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		417C11451FA90EC800C40B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417C11471FA90EC800C40B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		417C114A1FA90EC800C40B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		417C114C1FA90EC800C40B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417C11511FA90EC800C40B79 /* RemineMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemineMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417C11551FA90EC800C40B79 /* RemineMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemineMeTests.swift; sourceTree = "<group>"; };
+		417C11571FA90EC800C40B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417C115C1FA90EC800C40B79 /* RemineMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemineMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417C11601FA90EC800C40B79 /* RemineMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemineMeUITests.swift; sourceTree = "<group>"; };
+		417C11621FA90EC800C40B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2F4761FAE75E2004B6B8C /* BottomBorderedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBorderedTextField.swift; sourceTree = "<group>"; };
+		847DA97F35BBAD6D38ED4235 /* Pods_RemineMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemineMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A1C88DE1F0D05713DDAD37 /* Pods_RemineMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemineMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417C113A1FA90EC800C40B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE862342E9807EF87093D91 /* Pods_RemineMe.framework in Frameworks */,
+				41305FF41FAA23410091DC2F /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417C114E1FA90EC800C40B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417C11591FA90EC800C40B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417C11341FA90EC800C40B79 = {
+			isa = PBXGroup;
+			children = (
+				417C113F1FA90EC800C40B79 /* RemineMe */,
+				417C11541FA90EC800C40B79 /* RemineMeTests */,
+				417C115F1FA90EC800C40B79 /* RemineMeUITests */,
+				417C113E1FA90EC800C40B79 /* Products */,
+				E7E5A292D0AB14000598CF68 /* Pods */,
+				91D5A568BA6FFD697068C7F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		417C113E1FA90EC800C40B79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417C113D1FA90EC800C40B79 /* RemineMe.app */,
+				417C11511FA90EC800C40B79 /* RemineMeTests.xctest */,
+				417C115C1FA90EC800C40B79 /* RemineMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417C113F1FA90EC800C40B79 /* RemineMe */ = {
+			isa = PBXGroup;
+			children = (
+				4165F9D21FABF1FF00568E2D /* FavTableViewCell.swift */,
+				4165F9D01FABE23E00568E2D /* CardCover.swift */,
+				41305FF11FAA1EE60091DC2F /* tessdata */,
+				417C11401FA90EC800C40B79 /* AppDelegate.swift */,
+				417C11421FA90EC800C40B79 /* ViewController.swift */,
+				417C11441FA90EC800C40B79 /* Main.storyboard */,
+				417C11471FA90EC800C40B79 /* Assets.xcassets */,
+				417C11491FA90EC800C40B79 /* LaunchScreen.storyboard */,
+				417C114C1FA90EC800C40B79 /* Info.plist */,
+				410038AB1FA9436900B9C7D9 /* LeftTableViewController.swift */,
+				413681601FACEBE700BD85A3 /* AddCardViewController.swift */,
+				41A2F4761FAE75E2004B6B8C /* BottomBorderedTextField.swift */,
+				41008FD21FAE8C1100DE8397 /* AddCardTableViewCell.swift */,
+				41008FD41FAE8C5C00DE8397 /* CardCollectionViewCell.swift */,
+			);
+			path = RemineMe;
+			sourceTree = "<group>";
+		};
+		417C11541FA90EC800C40B79 /* RemineMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				417C11551FA90EC800C40B79 /* RemineMeTests.swift */,
+				417C11571FA90EC800C40B79 /* Info.plist */,
+			);
+			path = RemineMeTests;
+			sourceTree = "<group>";
+		};
+		417C115F1FA90EC800C40B79 /* RemineMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				417C11601FA90EC800C40B79 /* RemineMeUITests.swift */,
+				417C11621FA90EC800C40B79 /* Info.plist */,
+			);
+			path = RemineMeUITests;
+			sourceTree = "<group>";
+		};
+		91D5A568BA6FFD697068C7F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41305FF31FAA23400091DC2F /* libz.tbd */,
+				2FEAB56555FA6730C0E038B4 /* Pods_RemineMe.framework */,
+				D0A1C88DE1F0D05713DDAD37 /* Pods_RemineMeTests.framework */,
+				847DA97F35BBAD6D38ED4235 /* Pods_RemineMeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E5A292D0AB14000598CF68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07BF4983E3E40F9041750DA1 /* Pods-RemineMe.debug.xcconfig */,
+				2410B6C8DCD670D6F1C5236F /* Pods-RemineMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417C113C1FA90EC800C40B79 /* RemineMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417C11651FA90EC800C40B79 /* Build configuration list for PBXNativeTarget "RemineMe" */;
+			buildPhases = (
+				50C9E9D17087AB732A3CCB48 /* [CP] Check Pods Manifest.lock */,
+				417C11391FA90EC800C40B79 /* Sources */,
+				417C113A1FA90EC800C40B79 /* Frameworks */,
+				417C113B1FA90EC800C40B79 /* Resources */,
+				417C118D1FA9104600C40B79 /* Embed Frameworks */,
+				12E2571080DD598F6ACDC864 /* [CP] Embed Pods Frameworks */,
+				CB965D34D8EF3BAD7D9E96FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemineMe;
+			productName = RemineMe;
+			productReference = 417C113D1FA90EC800C40B79 /* RemineMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417C11501FA90EC800C40B79 /* RemineMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417C11681FA90EC800C40B79 /* Build configuration list for PBXNativeTarget "RemineMeTests" */;
+			buildPhases = (
+				417C114D1FA90EC800C40B79 /* Sources */,
+				417C114E1FA90EC800C40B79 /* Frameworks */,
+				417C114F1FA90EC800C40B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417C11531FA90EC800C40B79 /* PBXTargetDependency */,
+			);
+			name = RemineMeTests;
+			productName = RemineMeTests;
+			productReference = 417C11511FA90EC800C40B79 /* RemineMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		417C115B1FA90EC800C40B79 /* RemineMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417C116B1FA90EC800C40B79 /* Build configuration list for PBXNativeTarget "RemineMeUITests" */;
+			buildPhases = (
+				417C11581FA90EC800C40B79 /* Sources */,
+				417C11591FA90EC800C40B79 /* Frameworks */,
+				417C115A1FA90EC800C40B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417C115E1FA90EC800C40B79 /* PBXTargetDependency */,
+			);
+			name = RemineMeUITests;
+			productName = RemineMeUITests;
+			productReference = 417C115C1FA90EC800C40B79 /* RemineMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417C11351FA90EC800C40B79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Odselmaa Dorjsuren";
+				TargetAttributes = {
+					417C113C1FA90EC800C40B79 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					417C11501FA90EC800C40B79 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 417C113C1FA90EC800C40B79;
+					};
+					417C115B1FA90EC800C40B79 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 417C113C1FA90EC800C40B79;
+					};
+				};
+			};
+			buildConfigurationList = 417C11381FA90EC800C40B79 /* Build configuration list for PBXProject "RemineMe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417C11341FA90EC800C40B79;
+			productRefGroup = 417C113E1FA90EC800C40B79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417C113C1FA90EC800C40B79 /* RemineMe */,
+				417C11501FA90EC800C40B79 /* RemineMeTests */,
+				417C115B1FA90EC800C40B79 /* RemineMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417C113B1FA90EC800C40B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417C114B1FA90EC800C40B79 /* LaunchScreen.storyboard in Resources */,
+				417C11481FA90EC800C40B79 /* Assets.xcassets in Resources */,
+				41305FF21FAA1EE60091DC2F /* tessdata in Resources */,
+				417C11461FA90EC800C40B79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417C114F1FA90EC800C40B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417C115A1FA90EC800C40B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12E2571080DD598F6ACDC864 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50C9E9D17087AB732A3CCB48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemineMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB965D34D8EF3BAD7D9E96FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417C11391FA90EC800C40B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417C11431FA90EC800C40B79 /* ViewController.swift in Sources */,
+				410038AC1FA9436900B9C7D9 /* LeftTableViewController.swift in Sources */,
+				413681611FACEBE700BD85A3 /* AddCardViewController.swift in Sources */,
+				41008FD31FAE8C1100DE8397 /* AddCardTableViewCell.swift in Sources */,
+				417C11411FA90EC800C40B79 /* AppDelegate.swift in Sources */,
+				4165F9D11FABE23E00568E2D /* CardCover.swift in Sources */,
+				4165F9D31FABF20000568E2D /* FavTableViewCell.swift in Sources */,
+				41008FD51FAE8C5C00DE8397 /* CardCollectionViewCell.swift in Sources */,
+				41A2F4771FAE75E2004B6B8C /* BottomBorderedTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417C114D1FA90EC800C40B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417C11561FA90EC800C40B79 /* RemineMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417C11581FA90EC800C40B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417C11611FA90EC800C40B79 /* RemineMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417C11531FA90EC800C40B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417C113C1FA90EC800C40B79 /* RemineMe */;
+			targetProxy = 417C11521FA90EC800C40B79 /* PBXContainerItemProxy */;
+		};
+		417C115E1FA90EC800C40B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417C113C1FA90EC800C40B79 /* RemineMe */;
+			targetProxy = 417C115D1FA90EC800C40B79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417C11441FA90EC800C40B79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417C11451FA90EC800C40B79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417C11491FA90EC800C40B79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417C114A1FA90EC800C40B79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417C11631FA90EC800C40B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		417C11641FA90EC800C40B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417C11661FA90EC800C40B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BF4983E3E40F9041750DA1 /* Pods-RemineMe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56ZCGGYEGS;
+				INFOPLIST_FILE = RemineMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odko.RemineMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417C11671FA90EC800C40B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2410B6C8DCD670D6F1C5236F /* Pods-RemineMe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56ZCGGYEGS;
+				INFOPLIST_FILE = RemineMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odko.RemineMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		417C11691FA90EC800C40B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56ZCGGYEGS;
+				INFOPLIST_FILE = RemineMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odko.RemineMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemineMe.app/RemineMe";
+			};
+			name = Debug;
+		};
+		417C116A1FA90EC800C40B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56ZCGGYEGS;
+				INFOPLIST_FILE = RemineMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odko.RemineMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemineMe.app/RemineMe";
+			};
+			name = Release;
+		};
+		417C116C1FA90EC800C40B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56ZCGGYEGS;
+				INFOPLIST_FILE = RemineMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odko.RemineMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemineMe;
+			};
+			name = Debug;
+		};
+		417C116D1FA90EC800C40B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56ZCGGYEGS;
+				INFOPLIST_FILE = RemineMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odko.RemineMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemineMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417C11381FA90EC800C40B79 /* Build configuration list for PBXProject "RemineMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417C11631FA90EC800C40B79 /* Debug */,
+				417C11641FA90EC800C40B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417C11651FA90EC800C40B79 /* Build configuration list for PBXNativeTarget "RemineMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417C11661FA90EC800C40B79 /* Debug */,
+				417C11671FA90EC800C40B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417C11681FA90EC800C40B79 /* Build configuration list for PBXNativeTarget "RemineMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417C11691FA90EC800C40B79 /* Debug */,
+				417C116A1FA90EC800C40B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417C116B1FA90EC800C40B79 /* Build configuration list for PBXNativeTarget "RemineMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417C116C1FA90EC800C40B79 /* Debug */,
+				417C116D1FA90EC800C40B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417C11351FA90EC800C40B79 /* Project object */;
+}
