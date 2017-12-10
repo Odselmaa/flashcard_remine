@@ -7,18 +7,58 @@
 //
 
 import UIKit
+import Reachability
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+//    private var reachability:Reachability!;
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        let reachability = Reachability()!
+
+        NotificationCenter.default.addObserver(self, selector:#selector(reachabilityChanged(note:)), name: .reachabilityChanged, object: reachability)
+        do{
+            try reachability.startNotifier()
+        }catch{
+            print("Can't start notifier")
+        }
+        
+        let defaults = UserDefaults.standard
+        let logged = defaults.bool(forKey: "user_logged")
+        if logged{
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "main_view")
+            self.window?.rootViewController = initialViewController
+            self.window?.makeKeyAndVisible()
+            return true
+        }else{
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "auth_view")
+            self.window?.rootViewController = initialViewController
+            self.window?.makeKeyAndVisible()
+            return true
+        }
+
     }
-
-
+    @objc func reachabilityChanged(note: Notification) {
+        
+        let reachability = note.object as! Reachability
+        
+        switch reachability.connection {
+        case .wifi:
+            print("Reachable via WiFi")
+        case .cellular:
+            print("Reachable via Cellular")
+        case .none:
+            print("Network not reachable")
+        
+        }
+    }
+ 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
@@ -41,6 +81,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+//    func application(application: UIApplication,
+//                     openURL url: NSURL, options: [String: AnyObject]) -> Bool {
+//        return GIDSignIn.sharedInstance().handleURL(url,
+//                                                    sourceApplication: options[UIApplicationOpenURLOptionsSourceApplicationKey] as? String,
+//                                                    annotation: options[UIApplicationOpenURLOptionsAnnotationKey])
+//    }
 
 }
 

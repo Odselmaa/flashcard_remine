@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		410038AC1FA9436900B9C7D9 /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410038AB1FA9436900B9C7D9 /* LeftTableViewController.swift */; };
 		41008FD31FAE8C1100DE8397 /* AddCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41008FD21FAE8C1100DE8397 /* AddCardTableViewCell.swift */; };
 		41008FD51FAE8C5C00DE8397 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41008FD41FAE8C5C00DE8397 /* CardCollectionViewCell.swift */; };
+		410A10661FD83DBF00F41410 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A10651FD83DBF00F41410 /* SignUpController.swift */; };
+		410A10671FD83DBF00F41410 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A10651FD83DBF00F41410 /* SignUpController.swift */; };
+		410A10691FD83DD100F41410 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A10681FD83DD100F41410 /* LoginViewController.swift */; };
+		410A106A1FD83DD100F41410 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A10681FD83DD100F41410 /* LoginViewController.swift */; };
+		41107B191FCB236100157531 /* CardCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41107B181FCB236100157531 /* CardCover.swift */; };
+		41107B1A1FCB236100157531 /* CardCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41107B181FCB236100157531 /* CardCover.swift */; };
+		4129685B1FCA3A2A0015315E /* CardGroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129685A1FCA3A2A0015315E /* CardGroupCollectionViewCell.swift */; };
+		4129685C1FCA3A2A0015315E /* CardGroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129685A1FCA3A2A0015315E /* CardGroupCollectionViewCell.swift */; };
+		4129685E1FCA4EFC0015315E /* FlipCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129685D1FCA4EFC0015315E /* FlipCardTableViewCell.swift */; };
+		4129685F1FCA4EFC0015315E /* FlipCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129685D1FCA4EFC0015315E /* FlipCardTableViewCell.swift */; };
 		41305FF21FAA1EE60091DC2F /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 41305FF11FAA1EE60091DC2F /* tessdata */; };
 		41305FF41FAA23410091DC2F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41305FF31FAA23400091DC2F /* libz.tbd */; };
 		413681611FACEBE700BD85A3 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413681601FACEBE700BD85A3 /* AddCardViewController.swift */; };
-		4165F9D11FABE23E00568E2D /* CardCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4165F9D01FABE23E00568E2D /* CardCover.swift */; };
-		4165F9D31FABF20000568E2D /* FavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4165F9D21FABF1FF00568E2D /* FavTableViewCell.swift */; };
+		41462A481FC25E5F00C05179 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41462A471FC25E5F00C05179 /* UserViewController.swift */; };
+		4154647C1FC7ADEC00A5B986 /* MyCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4154647B1FC7ADEC00A5B986 /* MyCardViewController.swift */; };
+		4161AA391FCF8F88008FAF86 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4161AA381FCF8F88008FAF86 /* Constants.swift */; };
 		417C11411FA90EC800C40B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C11401FA90EC800C40B79 /* AppDelegate.swift */; };
 		417C11431FA90EC800C40B79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C11421FA90EC800C40B79 /* ViewController.swift */; };
 		417C11461FA90EC800C40B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417C11441FA90EC800C40B79 /* Main.storyboard */; };
@@ -22,7 +32,39 @@
 		417C114B1FA90EC800C40B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417C11491FA90EC800C40B79 /* LaunchScreen.storyboard */; };
 		417C11561FA90EC800C40B79 /* RemineMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C11551FA90EC800C40B79 /* RemineMeTests.swift */; };
 		417C11611FA90EC800C40B79 /* RemineMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C11601FA90EC800C40B79 /* RemineMeUITests.swift */; };
-		41A2F4771FAE75E2004B6B8C /* BottomBorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2F4761FAE75E2004B6B8C /* BottomBorderedTextField.swift */; };
+		418739031FC21EE40071D1AE /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418739021FC21EE40071D1AE /* Database.swift */; };
+		418739061FC239EA0071D1AE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418739051FC239EA0071D1AE /* Card.swift */; };
+		418739131FC240DE0071D1AE /* FavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418739121FC240DE0071D1AE /* FavTableViewCell.swift */; };
+		418A98CA1FC8D629002844B4 /* MyCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4154647B1FC7ADEC00A5B986 /* MyCardViewController.swift */; };
+		418A98CC1FC8D6C3002844B4 /* CardGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A98CB1FC8D6C3002844B4 /* CardGroupViewController.swift */; };
+		418A98CD1FC8D6C3002844B4 /* CardGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A98CB1FC8D6C3002844B4 /* CardGroupViewController.swift */; };
+		418A98CF1FC8D6CF002844B4 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A98CE1FC8D6CF002844B4 /* CardListViewController.swift */; };
+		418A98D01FC8D6CF002844B4 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A98CE1FC8D6CF002844B4 /* CardListViewController.swift */; };
+		418E8B0A1FC3326C008E0649 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418E8B091FC3326C008E0649 /* Cell.xib */; };
+		418E8B0B1FC3333A008E0649 /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FBF5E81FC31F9B009FC872 /* YoutubeIconCell.xib */; };
+		418E8B0C1FC3334C008E0649 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418E8B091FC3326C008E0649 /* Cell.xib */; };
+		418E8B0D1FC33369008E0649 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418E8B091FC3326C008E0649 /* Cell.xib */; };
+		418E8B0E1FC3336D008E0649 /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FBF5E81FC31F9B009FC872 /* YoutubeIconCell.xib */; };
+		418E8B0F1FC3343F008E0649 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBF5E51FC30F94009FC872 /* MainViewController.swift */; };
+		418E8B121FC33783008E0649 /* YoutubeIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E8B111FC33783008E0649 /* YoutubeIconCell.swift */; };
+		418E8B141FC369BC008E0649 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E8B131FC369BC008E0649 /* SearchViewController.swift */; };
+		418E8B161FC388B2008E0649 /* MyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E8B151FC388B2008E0649 /* MyCollection.swift */; };
+		418E8B181FC39D7A008E0649 /* MyCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E8B171FC39D7A008E0649 /* MyCollectionTableViewCell.swift */; };
+		418E8B1A1FC3D367008E0649 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E8B191FC3D367008E0649 /* Helper.swift */; };
+		41E3C5B11FCB5EEB007B03CA /* CardTrendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3C5B01FCB5EEB007B03CA /* CardTrendCollectionViewCell.swift */; };
+		41E3C5B21FCB5EEB007B03CA /* CardTrendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3C5B01FCB5EEB007B03CA /* CardTrendCollectionViewCell.swift */; };
+		41E82C5F1FD846D1008BC102 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E82C5E1FD846D1008BC102 /* Request.swift */; };
+		41E82C601FD846D1008BC102 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E82C5E1FD846D1008BC102 /* Request.swift */; };
+		41E82C621FD848E8008BC102 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E82C611FD848E8008BC102 /* User.swift */; };
+		41E82C631FD848E8008BC102 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E82C611FD848E8008BC102 /* User.swift */; };
+		41E82C651FD85025008BC102 /* Statics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E82C641FD85025008BC102 /* Statics.swift */; };
+		41E82C661FD85025008BC102 /* Statics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E82C641FD85025008BC102 /* Statics.swift */; };
+		41FBF5E61FC30F94009FC872 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBF5E51FC30F94009FC872 /* MainViewController.swift */; };
+		41FBF5E91FC31F9B009FC872 /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FBF5E81FC31F9B009FC872 /* YoutubeIconCell.xib */; };
+		41FDF1181FCC690700B73B11 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDF1171FCC690700B73B11 /* LessonViewController.swift */; };
+		41FDF1191FCC690700B73B11 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDF1171FCC690700B73B11 /* LessonViewController.swift */; };
+		41FDF11B1FCC745B00B73B11 /* FlipCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDF11A1FCC745B00B73B11 /* FlipCardCollectionViewCell.swift */; };
+		41FDF11C1FCC745B00B73B11 /* FlipCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDF11A1FCC745B00B73B11 /* FlipCardCollectionViewCell.swift */; };
 		ECE862342E9807EF87093D91 /* Pods_RemineMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEAB56555FA6730C0E038B4 /* Pods_RemineMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,14 +102,20 @@
 		07BF4983E3E40F9041750DA1 /* Pods-RemineMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemineMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe.debug.xcconfig"; sourceTree = "<group>"; };
 		2410B6C8DCD670D6F1C5236F /* Pods-RemineMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemineMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe.release.xcconfig"; sourceTree = "<group>"; };
 		2FEAB56555FA6730C0E038B4 /* Pods_RemineMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemineMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		410038AB1FA9436900B9C7D9 /* LeftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
 		41008FD21FAE8C1100DE8397 /* AddCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardTableViewCell.swift; sourceTree = "<group>"; };
 		41008FD41FAE8C5C00DE8397 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		410A10641FD82A5E00F41410 /* RemineMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemineMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		410A10651FD83DBF00F41410 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		410A10681FD83DD100F41410 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		41107B181FCB236100157531 /* CardCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCover.swift; sourceTree = "<group>"; };
+		4129685A1FCA3A2A0015315E /* CardGroupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGroupCollectionViewCell.swift; sourceTree = "<group>"; };
+		4129685D1FCA4EFC0015315E /* FlipCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardTableViewCell.swift; sourceTree = "<group>"; };
 		41305FF11FAA1EE60091DC2F /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		41305FF31FAA23400091DC2F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		413681601FACEBE700BD85A3 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
-		4165F9D01FABE23E00568E2D /* CardCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCover.swift; sourceTree = "<group>"; };
-		4165F9D21FABF1FF00568E2D /* FavTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavTableViewCell.swift; path = ../../Remine/Remine/FavTableViewCell.swift; sourceTree = "<group>"; };
+		41462A471FC25E5F00C05179 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		4154647B1FC7ADEC00A5B986 /* MyCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardViewController.swift; sourceTree = "<group>"; };
+		4161AA381FCF8F88008FAF86 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		417C113D1FA90EC800C40B79 /* RemineMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemineMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		417C11401FA90EC800C40B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		417C11421FA90EC800C40B79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +129,25 @@
 		417C115C1FA90EC800C40B79 /* RemineMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemineMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		417C11601FA90EC800C40B79 /* RemineMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemineMeUITests.swift; sourceTree = "<group>"; };
 		417C11621FA90EC800C40B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41A2F4761FAE75E2004B6B8C /* BottomBorderedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBorderedTextField.swift; sourceTree = "<group>"; };
+		418739021FC21EE40071D1AE /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		418739051FC239EA0071D1AE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		418739121FC240DE0071D1AE /* FavTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTableViewCell.swift; sourceTree = "<group>"; };
+		418A98CB1FC8D6C3002844B4 /* CardGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGroupViewController.swift; sourceTree = "<group>"; };
+		418A98CE1FC8D6CF002844B4 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		418E8B091FC3326C008E0649 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Cell.xib; path = RemineMe/ViewControllers/Cell.xib; sourceTree = SOURCE_ROOT; };
+		418E8B111FC33783008E0649 /* YoutubeIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeIconCell.swift; sourceTree = "<group>"; };
+		418E8B131FC369BC008E0649 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		418E8B151FC388B2008E0649 /* MyCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollection.swift; sourceTree = "<group>"; };
+		418E8B171FC39D7A008E0649 /* MyCollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		418E8B191FC3D367008E0649 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		41E3C5B01FCB5EEB007B03CA /* CardTrendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTrendCollectionViewCell.swift; sourceTree = "<group>"; };
+		41E82C5E1FD846D1008BC102 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		41E82C611FD848E8008BC102 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		41E82C641FD85025008BC102 /* Statics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statics.swift; sourceTree = "<group>"; };
+		41FBF5E51FC30F94009FC872 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		41FBF5E81FC31F9B009FC872 /* YoutubeIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeIconCell.xib; sourceTree = "<group>"; };
+		41FDF1171FCC690700B73B11 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		41FDF11A1FCC745B00B73B11 /* FlipCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardCollectionViewCell.swift; sourceTree = "<group>"; };
 		847DA97F35BBAD6D38ED4235 /* Pods_RemineMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemineMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A1C88DE1F0D05713DDAD37 /* Pods_RemineMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemineMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,9 +179,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41462A0C1FC2445E00C05179 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				413681601FACEBE700BD85A3 /* AddCardViewController.swift */,
+				418A98CB1FC8D6C3002844B4 /* CardGroupViewController.swift */,
+				418A98CE1FC8D6CF002844B4 /* CardListViewController.swift */,
+				418E8B091FC3326C008E0649 /* Cell.xib */,
+				418E8B191FC3D367008E0649 /* Helper.swift */,
+				41FDF1171FCC690700B73B11 /* LessonViewController.swift */,
+				41FBF5E51FC30F94009FC872 /* MainViewController.swift */,
+				4154647B1FC7ADEC00A5B986 /* MyCardViewController.swift */,
+				418E8B131FC369BC008E0649 /* SearchViewController.swift */,
+				41462A471FC25E5F00C05179 /* UserViewController.swift */,
+				417C11421FA90EC800C40B79 /* ViewController.swift */,
+				418E8B111FC33783008E0649 /* YoutubeIconCell.swift */,
+				41FBF5E81FC31F9B009FC872 /* YoutubeIconCell.xib */,
+				410A10651FD83DBF00F41410 /* SignUpController.swift */,
+				410A10681FD83DD100F41410 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		417C11341FA90EC800C40B79 = {
 			isa = PBXGroup;
 			children = (
+				410A10641FD82A5E00F41410 /* RemineMe-Bridging-Header.h */,
 				417C113F1FA90EC800C40B79 /* RemineMe */,
 				417C11541FA90EC800C40B79 /* RemineMeTests */,
 				417C115F1FA90EC800C40B79 /* RemineMeUITests */,
@@ -138,20 +227,18 @@
 		417C113F1FA90EC800C40B79 /* RemineMe */ = {
 			isa = PBXGroup;
 			children = (
-				4165F9D21FABF1FF00568E2D /* FavTableViewCell.swift */,
-				4165F9D01FABE23E00568E2D /* CardCover.swift */,
+				41462A0C1FC2445E00C05179 /* ViewControllers */,
+				418739071FC23E730071D1AE /* CustomUI */,
+				418739041FC239CF0071D1AE /* DB */,
 				41305FF11FAA1EE60091DC2F /* tessdata */,
-				417C11401FA90EC800C40B79 /* AppDelegate.swift */,
-				417C11421FA90EC800C40B79 /* ViewController.swift */,
-				417C11441FA90EC800C40B79 /* Main.storyboard */,
 				417C11471FA90EC800C40B79 /* Assets.xcassets */,
+				417C11401FA90EC800C40B79 /* AppDelegate.swift */,
+				417C11441FA90EC800C40B79 /* Main.storyboard */,
 				417C11491FA90EC800C40B79 /* LaunchScreen.storyboard */,
 				417C114C1FA90EC800C40B79 /* Info.plist */,
-				410038AB1FA9436900B9C7D9 /* LeftTableViewController.swift */,
-				413681601FACEBE700BD85A3 /* AddCardViewController.swift */,
-				41A2F4761FAE75E2004B6B8C /* BottomBorderedTextField.swift */,
-				41008FD21FAE8C1100DE8397 /* AddCardTableViewCell.swift */,
-				41008FD41FAE8C5C00DE8397 /* CardCollectionViewCell.swift */,
+				4161AA381FCF8F88008FAF86 /* Constants.swift */,
+				41E82C5E1FD846D1008BC102 /* Request.swift */,
+				41E82C641FD85025008BC102 /* Statics.swift */,
 			);
 			path = RemineMe;
 			sourceTree = "<group>";
@@ -172,6 +259,33 @@
 				417C11621FA90EC800C40B79 /* Info.plist */,
 			);
 			path = RemineMeUITests;
+			sourceTree = "<group>";
+		};
+		418739041FC239CF0071D1AE /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				418739051FC239EA0071D1AE /* Card.swift */,
+				418739021FC21EE40071D1AE /* Database.swift */,
+				418E8B151FC388B2008E0649 /* MyCollection.swift */,
+				41E82C611FD848E8008BC102 /* User.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		418739071FC23E730071D1AE /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				41008FD21FAE8C1100DE8397 /* AddCardTableViewCell.swift */,
+				41008FD41FAE8C5C00DE8397 /* CardCollectionViewCell.swift */,
+				41107B181FCB236100157531 /* CardCover.swift */,
+				4129685A1FCA3A2A0015315E /* CardGroupCollectionViewCell.swift */,
+				41E3C5B01FCB5EEB007B03CA /* CardTrendCollectionViewCell.swift */,
+				418739121FC240DE0071D1AE /* FavTableViewCell.swift */,
+				41FDF11A1FCC745B00B73B11 /* FlipCardCollectionViewCell.swift */,
+				4129685D1FCA4EFC0015315E /* FlipCardTableViewCell.swift */,
+				418E8B171FC39D7A008E0649 /* MyCollectionTableViewCell.swift */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 		91D5A568BA6FFD697068C7F4 /* Frameworks */ = {
@@ -306,9 +420,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				417C114B1FA90EC800C40B79 /* LaunchScreen.storyboard in Resources */,
+				418E8B0A1FC3326C008E0649 /* Cell.xib in Resources */,
 				417C11481FA90EC800C40B79 /* Assets.xcassets in Resources */,
 				41305FF21FAA1EE60091DC2F /* tessdata in Resources */,
 				417C11461FA90EC800C40B79 /* Main.storyboard in Resources */,
+				41FBF5E91FC31F9B009FC872 /* YoutubeIconCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +432,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418E8B0B1FC3333A008E0649 /* YoutubeIconCell.xib in Resources */,
+				418E8B0C1FC3334C008E0649 /* Cell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +441,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418E8B0E1FC3336D008E0649 /* YoutubeIconCell.xib in Resources */,
+				418E8B0D1FC33369008E0649 /* Cell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,13 +456,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHTTP/SwiftHTTP.framework",
 				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHTTP.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -373,9 +505,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RemineMe/Pods-RemineMe-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -389,15 +524,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410A10691FD83DD100F41410 /* LoginViewController.swift in Sources */,
+				4161AA391FCF8F88008FAF86 /* Constants.swift in Sources */,
 				417C11431FA90EC800C40B79 /* ViewController.swift in Sources */,
-				410038AC1FA9436900B9C7D9 /* LeftTableViewController.swift in Sources */,
 				413681611FACEBE700BD85A3 /* AddCardViewController.swift in Sources */,
+				418A98CC1FC8D6C3002844B4 /* CardGroupViewController.swift in Sources */,
+				41FBF5E61FC30F94009FC872 /* MainViewController.swift in Sources */,
+				41462A481FC25E5F00C05179 /* UserViewController.swift in Sources */,
+				41E82C651FD85025008BC102 /* Statics.swift in Sources */,
 				41008FD31FAE8C1100DE8397 /* AddCardTableViewCell.swift in Sources */,
+				41E82C621FD848E8008BC102 /* User.swift in Sources */,
+				41FDF11B1FCC745B00B73B11 /* FlipCardCollectionViewCell.swift in Sources */,
+				418A98CF1FC8D6CF002844B4 /* CardListViewController.swift in Sources */,
+				418E8B161FC388B2008E0649 /* MyCollection.swift in Sources */,
+				41E3C5B11FCB5EEB007B03CA /* CardTrendCollectionViewCell.swift in Sources */,
+				41FDF1181FCC690700B73B11 /* LessonViewController.swift in Sources */,
 				417C11411FA90EC800C40B79 /* AppDelegate.swift in Sources */,
-				4165F9D11FABE23E00568E2D /* CardCover.swift in Sources */,
-				4165F9D31FABF20000568E2D /* FavTableViewCell.swift in Sources */,
+				418E8B1A1FC3D367008E0649 /* Helper.swift in Sources */,
+				418E8B121FC33783008E0649 /* YoutubeIconCell.swift in Sources */,
+				418E8B181FC39D7A008E0649 /* MyCollectionTableViewCell.swift in Sources */,
+				418E8B141FC369BC008E0649 /* SearchViewController.swift in Sources */,
+				4129685E1FCA4EFC0015315E /* FlipCardTableViewCell.swift in Sources */,
+				4129685B1FCA3A2A0015315E /* CardGroupCollectionViewCell.swift in Sources */,
 				41008FD51FAE8C5C00DE8397 /* CardCollectionViewCell.swift in Sources */,
-				41A2F4771FAE75E2004B6B8C /* BottomBorderedTextField.swift in Sources */,
+				41107B191FCB236100157531 /* CardCover.swift in Sources */,
+				418739031FC21EE40071D1AE /* Database.swift in Sources */,
+				4154647C1FC7ADEC00A5B986 /* MyCardViewController.swift in Sources */,
+				418739061FC239EA0071D1AE /* Card.swift in Sources */,
+				41E82C5F1FD846D1008BC102 /* Request.swift in Sources */,
+				410A10661FD83DBF00F41410 /* SignUpController.swift in Sources */,
+				418739131FC240DE0071D1AE /* FavTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +561,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410A10671FD83DBF00F41410 /* SignUpController.swift in Sources */,
+				41E3C5B21FCB5EEB007B03CA /* CardTrendCollectionViewCell.swift in Sources */,
+				41FDF11C1FCC745B00B73B11 /* FlipCardCollectionViewCell.swift in Sources */,
+				41E82C661FD85025008BC102 /* Statics.swift in Sources */,
+				4129685F1FCA4EFC0015315E /* FlipCardTableViewCell.swift in Sources */,
+				4129685C1FCA3A2A0015315E /* CardGroupCollectionViewCell.swift in Sources */,
 				417C11561FA90EC800C40B79 /* RemineMeTests.swift in Sources */,
+				41107B1A1FCB236100157531 /* CardCover.swift in Sources */,
+				418A98CA1FC8D629002844B4 /* MyCardViewController.swift in Sources */,
+				41E82C631FD848E8008BC102 /* User.swift in Sources */,
+				418A98CD1FC8D6C3002844B4 /* CardGroupViewController.swift in Sources */,
+				410A106A1FD83DD100F41410 /* LoginViewController.swift in Sources */,
+				418E8B0F1FC3343F008E0649 /* MainViewController.swift in Sources */,
+				41E82C601FD846D1008BC102 /* Request.swift in Sources */,
+				41FDF1191FCC690700B73B11 /* LessonViewController.swift in Sources */,
+				418A98D01FC8D6CF002844B4 /* CardListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +741,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odko.RemineMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RemineMe-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -588,6 +760,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odko.RemineMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RemineMe-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
